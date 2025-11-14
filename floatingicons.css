@@ -1,0 +1,67 @@
+.floating-icons{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 100px;
+    background-position: center;
+
+   }
+   #float1{
+    background-image: url(media/float1.png);
+    background-size: contain;
+    left: 150px;
+    top: 50px;
+   }
+   #float2{
+    background-image: url(media/float2.png);
+    background-size: contain;
+    left: 190px;
+    top: 250px;
+   }
+   #float3{
+    background-image: url(media/float3.png);
+    background-size: contain;
+    left: 300px;
+    top: 390px;
+   }
+   #float4{
+    background-image: url(media/float4.png);
+    background-size: contain;
+    right: 270px;
+    top: 50px;
+   }
+   #float5{
+    background-image: url(media/float5.png);
+    background-size: contain;
+    
+    right: 220px;
+    top: 250px;
+   }
+   #float6{
+     background-image: url(media/float6.png);
+    background-size: contain;
+    right: 350px;
+    bottom: 100px;
+   }
+.gradient{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background:rgba(29, 160, 119, 1);
+    border-radius: 100%;
+    filter: blur(90px);
+}
+#gradient1{
+    top: 100px;
+    left: 200px;
+}
+#gradient2{
+    bottom: 20px;
+    right: 220px;
+}
+@media (max-width: 700px){
+    .floating-icons{
+        display: none;
+    }
+}
