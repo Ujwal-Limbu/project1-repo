@@ -1,0 +1,21 @@
+
+ .nav-bar ul li:hover .dropdown-menu{
+    margin-top: 5px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 17px;
+}
+.dropdown-menu{
+    display: none;
+}
+.dropdown-menu ul{
+    display: block;   
+}
+.dropdown-menu ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
